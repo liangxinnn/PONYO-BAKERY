@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PONYO BAKERY-餅乾</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</head>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Dongle&family=LXGW+WenKai+Mono+TC&display=swap');
+    
+        body {
+            font-family: 'Calibri', 'LXGW WenKai Mono TC','Gill Sans' , 'Trebuchet MS', sans-serif ;
+            font-size: 18px;
+        }
+        .card {
+            margin: 10%;
+        }
+        .space {
+            display: block;
+            height: 50px;
+        }
+        .card-title {
+          font-weight: 590;
+          font-size: larger;
+          font-family: "LXGW WenKai Mono TC";
+          color: #262320;
+        }
+        .card-text {
+          text-align: justify;
+          font-family: "LXGW WenKai Mono TC" ;
+          font-size: 18px;
+          color: #5d524a;
+        }
+    
+</style>
+<body>
+        <!--導覽頁-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="work.html" ><b>PONYO</b></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="work.html">首頁 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">菜單 </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="work2.html">蛋糕系列</a>
+                  <a class="dropdown-item" href="work3.html">麵包系列</a>
+                  <a class="dropdown-item" href="work4.html">餅乾系列</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="work5.html">其他</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">活動</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">關於我們</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-color:#272525; color:#272525;" >搜尋</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+        <!--一行空格-->
+        <div class="space"> </div>
+        <!--下拉選項-->
+        <div class="container">
+          <div class="row">
+              <!-- Dropdown -->
+              <div class="col-md-3">
+                  <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false" style="background-color: rgb(131, 127, 122);">口味
+                      </button>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">曲奇餅乾</a>
+                          <a class="dropdown-item" href="#">巧克力</a>
+                          <a class="dropdown-item" href="#">其他</a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+      
+        <!--餅乾圖-->
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="https://images.pexels.com/photos/14090323/pexels-photo-14090323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">巧克力曲奇餅乾</h5>
+                  <p class="card-text">外表酥脆，內部帶有濃郁的巧克力碎片，口感豐富且甜中帶苦，是搭配牛奶的絕佳選擇。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="https://images.pexels.com/photos/29837304/pexels-photo-29837304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">節慶姜餅（麋鹿造型）</h5>
+                  <p class="card-text">以節慶為主題的姜餅，外觀可愛，餅乾酥脆，帶有肉桂和薑的微微辛香，適合節日時享用或裝飾。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="https://images.pexels.com/photos/28638678/pexels-photo-28638678.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">夾心餅乾</h5>
+                  <p class="card-text">這款餅乾外殼酥脆，內部夾有柔滑的奶油或香甜餡料，適合搭配茶飲或作為輕甜小點心。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="https://images.pexels.com/photos/2067424/pexels-photo-2067424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">巧克力餅乾</h5>
+                  <p class="card-text">濃郁的巧克力風味，外層稍硬酥脆，內部濕潤軟嫩，適合喜歡濃重口感的甜點愛好者。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="https://images.pexels.com/photos/433120/pexels-photo-433120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">果醬曲奇餅乾</h5>
+                    <p class="card-text">中央以果醬點綴的酥脆曲奇，果醬的酸甜和餅乾的香酥形成鮮明對比，帶來多層次的口感。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="https://images.pexels.com/photos/12557741/pexels-photo-12557741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">綜合餅乾拼盤</h5>
+                    <p class="card-text">由不同口味的餅乾組成，包括巧克力餅乾和撒上彩色糖霜的甜餅，適合與咖啡或茶搭配，分享給家人朋友。</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+</body>
+</html>
