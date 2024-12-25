@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PONYO BAKERY-麵包</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</head>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Dongle&family=LXGW+WenKai+Mono+TC&display=swap');
+    
+        body {
+            font-family: 'Calibri', 'LXGW WenKai Mono TC','Gill Sans' , 'Trebuchet MS', sans-serif ;
+            font-size: 18px;
+        }
+        .card {
+            margin: 10%;
+        }
+        .space {
+            display: block;
+            height: 50px;
+        }
+        .card-title {
+          font-weight: 590;
+          font-size: larger;
+          font-family: "LXGW WenKai Mono TC";
+          color: #262320;
+        }
+        .card-text {
+          text-align: justify;
+          font-family: "LXGW WenKai Mono TC" ;
+          font-size: 18px;
+          color: #5d524a;
+        }
+    
+</style>
+<body>
+  <!---導覽列-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="work.html" ><b>PONYO</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="work.html">首頁 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">菜單 </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="index1.html">蛋糕系列</a>
+            <a class="dropdown-item" href="index2.html">麵包系列</a>
+            <a class="dropdown-item" href="index3.html">餅乾系列</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index4.html">其他</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">活動</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">關於我們</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-color:#272525; color:#272525;" >搜尋</button>
+      </form>
+    </div>
+  </div>
+  </nav>
+        <!--一行空格-->
+        <div class="space"> </div>
+        <!--下拉選項-->
+        <div class="container">
+          <div class="row">
+              <!-- Dropdown -->
+              <div class="col-md-3">
+                  <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false" style="background-color: rgb(131, 127, 122);">口味
+                      </button>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">可頌</a>
+                          <a class="dropdown-item" href="#">全麥雜糧</a>
+                          <a class="dropdown-item" href="#">吐司</a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+      
+        <!--麵包圖-->
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="https://images.pexels.com/photos/7774548/pexels-photo-7774548.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">小麵包</h5>
+                  <p class="card-text">外表酥脆，可能帶有甜味或奶香，適合作為早餐或下午茶的小點心。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="https://images.pexels.com/photos/1581715/pexels-photo-1581715.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">法式硬麵包</h5>
+                  <p class="card-text">外皮硬脆，內部柔軟，帶有麥香和穀物的香氣，適合搭配奶油或果醬食用。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="https://images.pexels.com/photos/9506934/pexels-photo-9506934.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">奶油吐司</h5>
+                  <p class="card-text">這是一款鬆軟的吐司，外表金黃，內部柔軟細膩，帶有淡淡的奶香或蜂蜜的甜味，適合製作三明治或直接享用。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">火腿三明治</h5>
+                  <p class="card-text">這是一個以長形麵包製作的三明治，內餡有火腿、生菜和可能的奶酪或醬料，味道鹹香，適合作為快速便餐。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="https://images.pexels.com/photos/1586947/pexels-photo-1586947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">全麥雜糧麵包</h5>
+                    <p class="card-text">健康的雜糧麵包，含有穀物和種子，口感扎實且有嚼勁，富含營養，適合搭配湯或製作開放式三明治。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="https://images.pexels.com/photos/7390/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">火腿乳酪可頌</h5>
+                    <p class="card-text">這是一款用可頌麵包製作的三明治，夾有火腿、奶酪和生菜，可頌的酥脆外皮與餡料的鹹香結合，是美味的早餐或點心選擇。</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+</body>
+</html>
